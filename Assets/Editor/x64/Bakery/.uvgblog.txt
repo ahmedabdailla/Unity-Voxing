@@ -1,0 +1,471 @@
+2024-2-29
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX sky "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SampleScene_LM0_final" 4 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" 64 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SampleScene_LM0_final_HDR.lz4" "E:/_GameDesign/_Projects/Voxing/Assets/BakeryLightmaps/SampleScene_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Running ftraceRTX.exe /sun hwtestdata light 4 0 0 direct0.bin
+Running ftrace.exe /sun hwtestdata light 4 0 0 direct0.bin
+Running denoiserLegacy c hwtestdata/image.lz4 hwtestdata/image.lz4 16 0
+Running denoiser c hwtestdata/image.lz4 hwtestdata/image.lz4 16 0
+Running denoiser72 c hwtestdata/image.lz4 hwtestdata/image.lz4 16 0
+Running denoiserOIDN c hwtestdata/image.lz4 hwtestdata/image.lz4 16 0
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Running ftraceRTX.exe interactive "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for SceneVR-Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX batchpointlightprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_5_0_1" 1924 0 5 batchpointlight_5_0_1.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_5" 1924 0 5 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes" 4 0 5 comp_5.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_4_0_1" 4 0 4 batchpointlight_4_0_1.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA30.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM00.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA10.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA20.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA40.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA31.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM01.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA11.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA21.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA41.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA32.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM02.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA12.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA22.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA42.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA33.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM03.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA13.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA23.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA43.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes_final" 1924 16 5 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_final" 4 16 3 "gi_SceneVR-Game_LMA34.bin" "SceneVR-Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_final" 4 16 0 "gi_SceneVR-Game_LM04.bin" "SceneVR-Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_final" 4 16 1 "gi_SceneVR-Game_LMA14.bin" "SceneVR-Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_final" 4 16 2 "gi_SceneVR-Game_LMA24.bin" "SceneVR-Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_final" 4 16 4 "gi_SceneVR-Game_LMA44.bin" "SceneVR-Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes_final_" 4 0 5 shcomp_5.bin
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA3_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "3" "SceneVR-Game_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LM0_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "0" "SceneVR-Game_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA1_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "1" "SceneVR-Game_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA2_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "2" "SceneVR-Game_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA4_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "4" "SceneVR-Game_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA3_final_HDR.lz4" "E:/_GameDesign/_Projects/Voxing/Assets/BakeryLightmaps/SceneVR-Game_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LM0_final_HDR.lz4" "E:/_GameDesign/_Projects/Voxing/Assets/BakeryLightmaps/SceneVR-Game_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA1_final_HDR.lz4" "E:/_GameDesign/_Projects/Voxing/Assets/BakeryLightmaps/SceneVR-Game_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA2_final_HDR.lz4" "E:/_GameDesign/_Projects/Voxing/Assets/BakeryLightmaps/SceneVR-Game_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA4_final_HDR.lz4" "E:/_GameDesign/_Projects/Voxing/Assets/BakeryLightmaps/SceneVR-Game_LMA4_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for SceneVR-Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX batchpointlightprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_5_0_1" 1924 0 5 batchpointlight_5_0_1.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_5" 1924 0 5 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes" 4 0 5 comp_5.bin
+Running ftraceRTX texgiprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes_final" 1924 16 5 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes_final_" 4 0 5 shcomp_5.bin
+Total cache size 296712052
+Total cache size after purge 267921864
+Total cache size 296486348
+Total cache size after purge 267147720
+abort_threads: Failed aborting id: 0000000000000954, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002DAC, mono_thread_manage will ignore it
+
+2024-3-5
+Rendering UV GBuffer for SceneVR-Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX batchpointlightprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_5_0_65" 1924 0 5 batchpointlight_5_0_65.bin
+Running ftraceRTX batchpointlightprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_5_66_67" 1924 0 5 batchpointlight_5_66_67.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_5" 1924 0 5 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes" 4 0 5 comp_5.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_3_0_65" 4 0 3 batchpointlight_3_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_3_66_67" 4 0 3 batchpointlight_3_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_0_0_65" 4 0 0 batchpointlight_0_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_0_66_67" 4 0 0 batchpointlight_0_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_1_0_65" 4 0 1 batchpointlight_1_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_1_66_67" 4 0 1 batchpointlight_1_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_2_0_65" 4 0 2 batchpointlight_2_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_2_66_67" 4 0 2 batchpointlight_2_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_4_0_65" 4 0 4 batchpointlight_4_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_4_66_67" 4 0 4 batchpointlight_4_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA30.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM00.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA10.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA20.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA40.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA31.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM01.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA11.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA21.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA41.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA32.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM02.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA12.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA22.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA42.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA33.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM03.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA13.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA23.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA43.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes_final" 1924 16 5 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_final" 4 16 3 "gi_SceneVR-Game_LMA34.bin" "SceneVR-Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_final" 4 16 0 "gi_SceneVR-Game_LM04.bin" "SceneVR-Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_final" 4 16 1 "gi_SceneVR-Game_LMA14.bin" "SceneVR-Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_final" 4 16 2 "gi_SceneVR-Game_LMA24.bin" "SceneVR-Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_final" 4 16 4 "gi_SceneVR-Game_LMA44.bin" "SceneVR-Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes_final_" 4 0 5 shcomp_5.bin
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA3_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "3" "SceneVR-Game_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LM0_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "0" "SceneVR-Game_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA1_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "1" "SceneVR-Game_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA2_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "2" "SceneVR-Game_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA4_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "4" "SceneVR-Game_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA3_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LM0_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA1_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA2_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA4_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LMA4_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+Rendering UV GBuffer for SceneVR-Game_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SceneVR-Game_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "uvpos_SceneVR-Game_LMA4.lz4" 2 0 4 0
+Running ftraceRTX batchpointlightprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_5_0_65" 1924 0 5 batchpointlight_5_0_65.bin
+Running ftraceRTX batchpointlightprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_5_66_67" 1924 0 5 batchpointlight_5_66_67.bin
+Running ftraceRTX skycubemapprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_5" 1924 0 5 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes" 4 0 5 comp_5.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_3_0_65" 4 0 3 batchpointlight_3_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_3_66_67" 4 0 3 batchpointlight_3_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_3" 4 0 3 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_0_0_65" 4 0 0 batchpointlight_0_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_0_66_67" 4 0 0 batchpointlight_0_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_0" 4 0 0 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_1_0_65" 4 0 1 batchpointlight_1_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_1_66_67" 4 0 1 batchpointlight_1_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_1" 4 0 1 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_2_0_65" 4 0 2 batchpointlight_2_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_2_66_67" 4 0 2 batchpointlight_2_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_2" 4 0 2 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_4_0_65" 4 0 4 batchpointlight_4_0_65.bin
+Running ftraceRTX batchpointlight "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "PointBatch_4_66_67" 4 0 4 batchpointlight_4_66_67.bin
+Running ftraceRTX skycubemap "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "light_1_4" 4 0 4 sky0.bin
+Running ftraceRTX addmul "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA30.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM00.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA10.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA20.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA40.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA31.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM01.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA11.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA21.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA41.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA32.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM02.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA12.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA22.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA42.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_diffuse" 4 16 3 "gi_SceneVR-Game_LMA33.bin" "SceneVR-Game_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_diffuse" 4 16 0 "gi_SceneVR-Game_LM03.bin" "SceneVR-Game_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_diffuse" 4 16 1 "gi_SceneVR-Game_LMA13.bin" "SceneVR-Game_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_diffuse" 4 16 2 "gi_SceneVR-Game_LMA23.bin" "SceneVR-Game_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_diffuse" 4 16 4 "gi_SceneVR-Game_LMA43.bin" "SceneVR-Game_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes_final" 1924 16 5 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA3_final" 4 16 3 "gi_SceneVR-Game_LMA34.bin" "SceneVR-Game_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LM0_final" 4 16 0 "gi_SceneVR-Game_LM04.bin" "SceneVR-Game_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA1_final" 4 16 1 "gi_SceneVR-Game_LMA14.bin" "SceneVR-Game_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA2_final" 4 16 2 "gi_SceneVR-Game_LMA24.bin" "SceneVR-Game_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "SceneVR-Game_LMA4_final" 4 16 4 "gi_SceneVR-Game_LMA44.bin" "SceneVR-Game_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "probes_final_" 4 0 5 shcomp_5.bin
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA3_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "3" "SceneVR-Game_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LM0_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "0" "SceneVR-Game_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA1_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "1" "SceneVR-Game_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA2_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "2" "SceneVR-Game_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA4_final_HDR.lz4" "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\AHMEDA~1\AppData\Local\Temp\frender" "4" "SceneVR-Game_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA3_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LM0_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA1_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA2_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\AHMEDA~1\AppData\Local\Temp\frender/SceneVR-Game_LMA4_final_HDR.lz4" "E:/_GameDesign/_Projects/VoxingUnity/Assets/BakeryLightmaps/SceneVR-Game_LMA4_final.hdr" 1024
